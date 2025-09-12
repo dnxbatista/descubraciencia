@@ -1,0 +1,112 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #4caf50, #757575);
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Ícone de perfil */
+.profile-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Logo e título */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.logo h1 span {
+    color: #fff200;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Formulário */
+.login-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.login-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.login-form button:hover {
+    background: #000;
+}
+
+.login-form .forgot {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.login-form .forgot:hover {
+    text-decoration: underline;
+}
